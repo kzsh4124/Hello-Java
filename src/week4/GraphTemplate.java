@@ -26,11 +26,5 @@ class GraphTemplate{
     int end() {
         return 5;
     }
-    void print_count(){
-        System.out.println(fn_count);
-        System.out.println(st_count);
-        System.out.println(en_count);
-
-
-    }
+    
 }

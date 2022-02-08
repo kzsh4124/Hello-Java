@@ -1,0 +1,8 @@
+SAMPLE
+                                        
+by MAEDA Atusi
+                                        
+This is a sample text
+for testing line adjustment.
+These lines should be printed in
+a neat manner.
