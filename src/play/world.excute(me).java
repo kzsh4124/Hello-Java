@@ -73,7 +73,7 @@ public class GodDrinksJava {
         }
 
         world.unlock(you);
-        world.removeTing(you);
+        world.removeThing(you);
         me.lookFor(you, world);
         me.lookFor(you, world);
         me.lookFor(you, world);
@@ -85,7 +85,7 @@ public class GodDrinksJava {
         }
 
         try{
-        me.setOpinion(me.getOpinionIndex('you are here'), false);
+        me.setOpinion(me.getOpinionIndex("you are here"), false);
         }
         catch(IllegalArgumentException e){
             world.announce("God is always true.")
